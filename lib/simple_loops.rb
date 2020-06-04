@@ -26,10 +26,10 @@ def output_array(array)
 end  
 
 def return_string_array(array)
-  count = 0 
-  while array[count] do
-  array = 
-    count += 1
+  i = 0 
+  while array[i] do
+  array = {|i| 
+    i += 1
   end
   puts array.to_s
 end  
