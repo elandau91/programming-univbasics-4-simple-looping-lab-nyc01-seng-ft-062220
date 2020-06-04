@@ -28,8 +28,9 @@ end
 def return_string_array(array)
   i = 0 
   while array[i] do
-  array = {|i| 
+  array = {|i| i.to_s
     i += 1
   end
-  puts array.to_s
+  puts array
 end  
+  
