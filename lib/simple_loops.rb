@@ -31,6 +31,6 @@ def return_string_array(array)
   array {|i| i.to_s}
     i += 1
   end
-  puts array
+  puts array[i]
 end  
   
