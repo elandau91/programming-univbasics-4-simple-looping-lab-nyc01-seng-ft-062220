@@ -14,7 +14,6 @@ def loop_message_n_times(message, num)
     puts message
     num++
   end  
-  
 end  
 
 
