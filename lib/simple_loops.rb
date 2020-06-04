@@ -31,7 +31,7 @@ def return_string_array(array)
   while array[count] do
   array[count].to_s
   new_array.push(array[count].to_s)
-    i += 1
+    count += 1
   end
   puts new_array
 end  
